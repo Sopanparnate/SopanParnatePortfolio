@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio Project
 
 Full-stack portfolio with React.js frontend and Node.js + Express.js backend.
@@ -164,3 +165,7 @@ Frontend runs at: `http://localhost:3000`
 - Make sure MongoDB is running locally before starting the backend
 - For cloud MongoDB, replace `MONGO_URI` with your MongoDB Atlas connection string
 - The frontend is intentionally plain — add your own design later
+=======
+# SopanParnatePortfolio
+Modern full-stack developer portfolio built with React, Node.js, Express, and MongoDB.
+>>>>>>> 37a2f73f12e269cc3c4804378ac5809123949f9f
