@@ -204,11 +204,11 @@ export default function Hero() {
               className="absolute -bottom-5 -left-6 bg-mist border border-border rounded-xl px-4 py-3 flex items-center gap-3"
             >
               <div className="w-8 h-8 rounded-lg bg-champagne/10 border border-champagne/20 flex items-center justify-center flex-shrink-0">
-                <span className="text-champagne text-sm font-display">3+</span>
+                <span className="text-champagne text-sm font-display">5+</span>
               </div>
               <div>
-                <p className="text-xs text-paper font-medium leading-none mb-0.5">Years of</p>
-                <p className="text-xs text-dim font-light leading-none">Experience</p>
+                <p className="text-xs text-paper font-medium leading-none mb-0.5">Technologies</p>
+                <p className="text-xs text-dim font-light leading-none">Explored</p>
               </div>
             </motion.div>
 
@@ -220,11 +220,11 @@ export default function Hero() {
               className="absolute -top-5 -right-6 bg-mist border border-border rounded-xl px-4 py-3 flex items-center gap-3"
             >
               <div className="w-8 h-8 rounded-lg bg-champagne/10 border border-champagne/20 flex items-center justify-center flex-shrink-0">
-                <span className="text-champagne text-sm font-display">20+</span>
+                <span className="text-champagne text-sm font-display">10+</span>
               </div>
               <div>
                 <p className="text-xs text-paper font-medium leading-none mb-0.5">Projects</p>
-                <p className="text-xs text-dim font-light leading-none">Shipped</p>
+                <p className="text-xs text-dim font-light leading-none">Built</p>
               </div>
             </motion.div>
           </div>
