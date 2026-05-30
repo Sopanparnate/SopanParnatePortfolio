@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { PROJECTS as STATIC_PROJECTS } from '../data/projects.js';
 
-const API_URL = 'http://localhost:5000/api/projects';
+const API_URL = 'https://sopanparnateportfolio.onrender.com/api/projects';
 
 // Normalize API project shape to match static data shape
 function normalize(p, index) {
@@ -17,7 +17,7 @@ function normalize(p, index) {
     status:      p.status || 'Live',
     github:      p.github || null,
     live:        p.live || null,
-    image:       p.image ? `http://localhost:5000${p.image}` : null,
+    image:       p.image ? `https://sopanparnateportfolio.onrender.com${p.image}` : null,
     featured:    p.featured || false,
     year:        p.year || '',
   };
